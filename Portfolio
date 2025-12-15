@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>P. Kavyasree | Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #0a4d8c;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        section {
+            padding: 30px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+        }
+
+        /* Profile Image */
+        .profile-img {
+            display: block;
+            margin: 15px auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #0a4d8c;
+        }
+
+        .skills ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        .project {
+            margin-top: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0a4d8c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #06345f;
+        }
+
+        .contact a {
+            color: #0a4d8c;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #222;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>P. Kavyasree</h1>
+        <p>Engineering Student</p>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Me</h2>
+
+        <!-- Profile Image -->
+        <img src="profile.jpg" alt="P. Kavyasree" class="profile-img">
+
+        <p>
+            I am Kavya Sree, currently pursuing B.Tech 3rd year.
+            I am a dedicated student with a strong interest in technology and continuous learning.
+            I enjoy gaining practical knowledge and improving my technical skills.
+            I am focused on building a successful career through hard work and perseverance.
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Node.js</li>
+            <li>C</li>
+            <li>Java</li>
+        </ul>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>CSP Project – Green Tomorrow</h3>
+            <p>
+                Vision Green Tech project focused on wastage detection.
+                The project aims to identify waste and promote a cleaner and greener environment.
+            </p>
+        </div>
+    </section>
+
+    <!-- Resume -->
+    <section class="resume">
+        <h2>Resume</h2>
+        <p>You can download my resume below:</p>
+        <a href="Kavya Resume.pdf" download class="btn">
+            Download Resume (PDF)
+        </a>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p><strong>Email:</strong> 23191ao503@jntua.ac.in</p>
+        <p><strong>Phone:</strong> 8688551584</p>
+        <p>
+            <strong>LinkedIn:</strong>
+            <a href="https://www.linkedin.com/in/kavya-sree-pujari-402654301" target="_blank">
+                View Profile
+            </a>
+        </p>
+        <p>
+            <strong>GitHub:</strong>
+            <a href="https://github.com/23191a0503-a11y">
+                View Profile
+            </a>
+        </p>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>©2025 P. KAVYASREE | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
