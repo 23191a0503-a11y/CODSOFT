@@ -1,0 +1,148 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>P. Kavyasree | Portfolio</title>
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background-color: #0a4d8c;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 30px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+        }
+
+        /* Skills */
+        .skills ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        /* Projects */
+        .project {
+            margin-top: 10px;
+        }
+
+        /* Resume Button */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0a4d8c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #06345f;
+        }
+
+        /* Contact Links */
+        .contact a {
+            color: #0a4d8c;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #222;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>P. Kavyasree</h1>
+        <p>Engineering Student</p>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Me</h2>
+        <p>
+            I am Kavya Sree, currently pursuing B.Tech 3rd year.
+            I am a dedicated student with a strong interest in technology and continuous learning.
+            I enjoy gaining practical knowledge and improving my technical skills.
+            I am focused on building a successful career through hard work and perseverance.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Node.js</li>
+            <li>C</li>
+            <li>Java</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>CSP Project – Green Tomorrow</h3>
+            <p>
+                Vision Green Tech project focused on wastage detection.
+                The project aims to identify waste and promote a cleaner and greener environment.
+            </p>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume">
+        <h2>Resume</h2>
+        <a href="Kavya Resume.pdf" download class="btn">Download Resume</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <p><strong>Email:</strong> 23191ao503@jntua.ac.in</p>
+        <p><strong>Phone:</strong> 8688551584</p>
+        <p>
+            <strong>LinkedIn:</strong>
+            <a href="https://www.linkedin.com/in/kavya-sree-pujari-402654301?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                View Profile
+            </a>
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>©2025 P. KAVYASREE | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
