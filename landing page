@@ -1,0 +1,167 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Landing Page | Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        /* Navbar */
+        nav {
+            background-color: #2f2f2f;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+
+        nav h2 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        /* Hero Section */
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 60px;
+            background-color: #4b4b4b;
+            color: white;
+        }
+
+        .hero-text {
+            max-width: 50%;
+        }
+
+        .hero-text h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .hero-text p {
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: #1e90ff;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        .hero img {
+            width: 320px;
+            border-radius: 5px;
+        }
+
+        /* About Section */
+        .about {
+            display: flex;
+            padding: 60px;
+            background-color: white;
+            align-items: center;
+        }
+
+        .about img {
+            width: 280px;
+            margin-right: 40px;
+        }
+
+        .about-text h2 {
+            color: #1e90ff;
+        }
+
+        .about-text p {
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <h2>Online Portfolio</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Works</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>P. KAVYASREE</h1>
+            <p>
+                Hi, I am an Engineering student pursuing B.Tech 3rd year.
+                I am passionate about technology, learning new skills,
+                and building a successful career in software development.
+            </p>
+            <a href="#" class="btn">Hire Me</a>
+        </div>
+
+        <img src="hero.jpg" alt="Profile Image">
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <img src="about.jpg" alt="About Image">
+
+        <div class="about-text">
+            <h2>ABOUT ME</h2>
+            <p>
+                I am a dedicated engineering student with strong interest in
+                web development and programming. I enjoy practical learning
+                and improving my technical skills through projects.
+            </p>
+
+            <a href="Kavya Resume.pdf" download class="btn">
+                Download Resume
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 P. KAVYASREE | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
